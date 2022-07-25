@@ -259,11 +259,7 @@ export function PersonCreate({}: Props) {
               {...register("picture", { required: true })}
             />
           </Box>
-          <TextField
-            sx={{ margin: "20px !important", backgroundColor: "#CBC3E3
-            " }}
-            type="submit"
-          />
+          <TextField sx={{ margin: "20px !important" }} type="submit" />
         </Box>
       </form>
       <ToastContainer />
