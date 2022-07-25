@@ -260,7 +260,6 @@ export function PersonCreate({}: Props) {
             />
           </Box>
           <TextField
-            InputProps={{ color: "primary" }}
             sx={{ margin: "20px !important", backgroundColor: "#CBC3E3
             " }}
             type="submit"
